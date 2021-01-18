@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей Ермак](https://up.htmlacademy.ru/htmlcss/30/user/1618013).
-* Наставник: `Неизвестно`.
+* Наставник:[Максим Корелин](https://htmlacademy.ru/profile/maxzbest).
 
 ---
 
