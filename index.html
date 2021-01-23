@@ -8,18 +8,14 @@
     <header>
       <div>
         <a href="#"><img src="https://via.placeholder.com/220x47" width="220" height="47" alt="Логотип Техномарт"></a>
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <label for="search">Поиск</label>
-          <input id="search" type="search" name="search" placeholder="Поиск:">
-          <button>Найти</button>
-        </form>
+        <!-- тут будет форма -->
         <a href="#">Закладки: 0</a>
         <a href="#">Корзина: 10</a>
         <a href="#">Оформить заказ</a>
       </div>
       <div>
-        <p><i>Интернет-магазин<br> строительных материалов<br>
-          и инструментов для ремонта</i></p>
+        <p>Интернет-магазин<br> строительных материалов<br>
+          и инструментов для ремонта</p>
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <a href="#">Войти</a>
@@ -29,7 +25,7 @@
         <ul>
           <li><a href="#">Главная</a></li>
           <li><a href="#">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="#">Спецпредложения</a></li>
           <li><a href="#">Доставка</a></li>
@@ -80,17 +76,23 @@
             </span>
           </label>                  
           <ul>
-            <li>
-              <h3>перфораторы</h3>
-              <span>Настоящие мужские игрушки</span>
-              <a href="#">открыть Каталог</a>
-              <img src="https://via.placeholder.com/620x266" width="620" height="266" alt="Slider-1">
+            <li class="slider-item">
+              <h3>ПЕРФОРАТОРЫ</h3>
+              <p>Настоящие мужские игрушки</p>
+              <img
+                src="https://via.placeholder.com/620x266"
+                alt="Мужчина с перфоратором"
+              />
+              <a href="perforators.html">ОТКРЫТЬ КАТАЛОГ</a>
             </li>
-            <li>
-              <h3>дрели</h3>
-              <span>Соседям на радость!</span>
-              <a href="#">открыть Каталог</a>
-              <img src="https://via.placeholder.com/620x266" width="620" height="266" alt="Slider-2">
+            <li class="slider-item">
+              <h3>ДРЕЛИ</h3>
+              <p>Соседям на радость!</p>
+              <img
+                src="https://via.placeholder.com/620x266"
+                alt="Мужчина с дрелью"
+              />
+              <a href="#">ОТКРЫТЬ КАТАЛОГ</a>
             </li>
           </ul>
         </div>
@@ -110,8 +112,8 @@
               В закладки
             </button>
             <h3>Перфоратор BOSCH BFG 9000</h3>
-            <p><s>32500 Р.</s></p>
-            <a href="#">25500 Р.</a>
+            <p>32500 Р.</p>
+            <p>25500 Р.</p>
           </li>
           <li>
             <img src="https://via.placeholder.com/184x164" width="184" height="164" alt="Товар-2">
@@ -122,8 +124,8 @@
               В закладки
             </button>
             <h3>Перфоратор BOSCH BFG 3000</h3>
-            <p><s>22500 Р.</s></p>
-            <a href="#">15500 Р.</a>
+            <p>22500 Р.</p>
+            <p>15500 Р.</p>
           </li>
           <li>
             <img src="https://via.placeholder.com/184x164" width="184" height="164" alt="Товар-3">
@@ -134,8 +136,8 @@
               В закладки
             </button>
             <h3>Перфоратор BOSCH BFG 6000</h3>
-            <p><s>30500 Р.</s></p>
-            <a href="#">25500 Р.</a>
+            <p>30500 Р.</p>
+            <p>25500 Р.</p>
           </li>
           <li>
             <img src="https://via.placeholder.com/184x164" width="184" height="164" alt="Товар-4">
@@ -251,7 +253,7 @@
         <ul>
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
-          <li><a href="#">Каталог</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
@@ -289,26 +291,7 @@
     </footer>
     <section>
       <h2>Введите свои данные</h2>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <div>
-          <p>
-            <label for="user-name">Ваше имя:</label>
-            <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста">
-          </p>
-          <p>
-            <label for="user-email">Ваш e-mail:</label>
-            <input type="email" name="user-email" id="user-email" placeholder="Для отправки ответа">
-          </p>
-          <p>
-            <label for="inscription-text">Текст письма:</label>
-            <textarea name="text" id="inscription-text" placeholder="В свободной форме"></textarea>
-          </p>
-        </div>
-        <div>
-          <button type="submit">ОТПРАВИТЬ</button>
-          <button type="button">Закрыть</button>
-        </div>
-        </form>
+     <!-- тут будет форма отправки данных -->
     </section>
   </body>
 </html>
